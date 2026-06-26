@@ -43,3 +43,21 @@ nav a.active{
     border-bottom: 2px solid red;
     font-weight:  bold;
 }
+.hero{
+    height: 90vh;
+    background-image:url("image/pizza.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    color: aqua;
+}
+.hero button{
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
