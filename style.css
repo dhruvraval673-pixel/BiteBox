@@ -1,32 +1,32 @@
 *
 {
-    margin:0px;
-    padding:0px;
-    box-sizing: border-box;
-    font-family:  "Black Ops One", system-ui;
+margin:0px;
+padding:0px;
+box-sizing: border-box;
+font-family:  "Black Ops One", system-ui;
 }
 nav div{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-    padding: 10px 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: black;
+padding: 10px 20px;
 }
 ul{
-    display: flex;
-    gap:50px;
-    list-style: none;
+display: flex;
+gap:50px;
+list-style: none;
 
 }
- nav a{
-    text-decoration:none;
-   color: white;
+nav a{
+text-decoration:none;
+color: white;
 }
 nav h2{
-    color: white;
+color: white;
 }
 nav a:hover{
-    color: red;
+color: red;
 }/*pseudo class */
 nav li:last-child a
 {
@@ -35,13 +35,13 @@ padding: 6px 12px;
 border-radius: 10px;
 }
 nav li:last-child a:hover{
-    background-color: antiquewhite;
-    
+background-color: antiquewhite;
+
 }
 nav a.active{
-    color: red;
-    border-bottom: 2px solid red;
-    font-weight:  bold;
+color: red;
+border-bottom: 2px solid red;
+font-weight:  bold;
 }
 .hero{
     height: 90vh;
@@ -60,4 +60,46 @@ nav a.active{
   border-radius: 10px;
   color: white;
   cursor: pointer;
+}
+.video_section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+.video_text{
+  flex: 1;
+}
+.video_box{
+  flex: 1;
+}
+.video_box video{
+  width: 100%;
+border-radius: 10px;
+}
+.video_text h2{
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.video_text p{
+  font-size: 20px;
+  color: #444;
+}
+.about_section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color:blanchedalmond;
+}
+.about_section h2{
+  font-size: 32px;
+  margin-bottom: 15px;
+  color: red;
+}
+.about_section p{
+  max-width: 900px;
+  font-size: 20px;
+  color: #555;
+  line-height: 1.6;
+  margin: auto;
 }
