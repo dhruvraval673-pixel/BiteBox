@@ -176,3 +176,89 @@ header{
   position: sticky;
   top: 0p;
 }
+/* cart section start here */
+.Item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.Item img{
+    width: 70px;
+    height: 70px;
+    border-radius:15% ;
+}
+table{
+    border:none;
+    width: 70%;
+    margin: auto;
+    border-collapse:collapse ;
+    background: white;
+    border-radius: 100px;
+    overflow: auto;
+}
+thead{
+    background: #ff3a3a;
+    color: #eee;
+}
+td , th{
+    padding: 20px;
+    text-align: center;
+
+}
+tbody tr{
+  border-bottom: 1px solid grey;
+}
+.Remove{
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.Remove:hover{
+  background: darkred;
+}
+.Item-Qty{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.Item-Qty button{
+  background: red;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 28px;
+  height: 28px;
+
+}
+.Item-Qty button:hover{
+  background: darkred;
+}
+.Item-Qty span{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  min-width: 20px;
+}
+.grand-Total td{
+  font-size: 18px;
+  font-weight: bold;
+}
+.grand-Total button{
+  background: red;
+  border: none;
+  padding: 18px 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.grand-Total button:hover{
+   background: darkred;
+}
