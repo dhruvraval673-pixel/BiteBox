@@ -318,3 +318,82 @@ margin-bottom: 20px;
   text-decoration: none;
   color: red;
 }
+/* bite deals */
+.deals-page{
+    padding: 40px;
+    background:grey;
+}
+
+.deal-hero{
+    background: linear-gradient(135deg, rgb(0,0,0),#202020);
+    color: white;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.deal-hero h1{
+    font-size: 40px;
+}
+
+.deal-hero p{
+    font-size: 18px;
+}
+.section-title{
+  margin: 20px 0 20px;
+  font-size: 28px;
+  color: #000;
+}
+.combo-section{
+    padding:40px;
+    background: #fff;
+}
+
+.combo-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+}
+
+.combo-card{
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.combo-card img{
+    width: 200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.combo-card h4{
+    margin: 10px ;
+}
+
+.combo-card h4 span{
+    text-decoration: line-through;
+    color: gray;
+    margin-right: 10px;
+}
+
+.combo-card button{
+    background: red;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius:8px;
+    cursor: pointer;
+}
+
+.combo-card button:hover{
+    background: #cc0000;
+}
+
+.combo-card:hover{
+    transform:translateY(-8px)
+}
