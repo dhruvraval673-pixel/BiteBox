@@ -112,11 +112,13 @@ border-radius: 10px;
 }
 .menu h2{
   text-align: center;
-  
+  margin-top: 20px;
+  margin-bottom: 20px;
+
 }
 .card{
   background-color: #fff;
-  box-shadow: 9px 11px 16px rgb(68, 67, 67);
+  box-shadow: 9px 9px 12px rgb(68, 67, 67);
   text-align: center;
   border-radius: 10px;
   padding: 15px;
@@ -261,4 +263,58 @@ tbody tr{
 }
 .grand-Total button:hover{
    background: darkred;
+}
+/* login page */
+.auth-container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #403B4A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E7E9BB, #403B4A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E7E9BB, #403B4A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.auth-box{
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  width: 320px;
+  text-align: center;
+  box-shadow:  0px 8px 25px grey;
+}
+.auth-box h2{
+margin-bottom: 20px;
+}
+.auth-box input{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 8px;
+  border-radius: 10px;
+  border: 3px solid #ddd;
+  outline: none;
+}
+.auth-box input:focus{
+  border-color: red;
+}
+.auth-box button{
+  background: red;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.auth-box button:hover{
+  background: darkred;
+}
+.auth-box p{
+  font-size: 14px;
+  margin-top: 15px;
+}
+.auth-box a{
+  text-decoration: none;
+  color: red;
 }
